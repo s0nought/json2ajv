@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+#play-demo-button {
+    margin: 8px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.wrapper > div {
+    width: 50%;
+}
+
+textarea {
+    height: 500px;
+    width: 95%;
+    max-width: 95%;
+}
+
+button {
+    padding: 10px;
+}
+
+#log-box {
+    background: #DDD;
+    height: 200px;
+    margin: 10px 0 0 0;
+    overflow: auto;
+    white-space: pre;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.orange-bg {
+    background: #F80;
+}
+
+.green-bg {
+    background: #7E6;
+}
+
+.error {
+    color: #F00;
+}

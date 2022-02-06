@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <title>JSON to Ajv compatible schema converter</title>
+    </head>
+    <body>
+        <button id="play-demo-button" type="button">Play Demo</button>
+        <div class="wrapper">
+            <div>
+                <p class="bold">JSON</p>
+                <p>
+                    <button id="clear-json-box-button" type="button" class="orange-bg">Clear</button>
+                    <button id="convert-to-schema-button" type="button" class="green-bg">Convert to schema</button>
+                </p>
+                <textarea id="json-box" class="monospace"></textarea>
+            </div>
+            <div>
+                <p class="bold">Ajv compatible schema for Postman</p>
+                <p>
+                    <button id="clear-schema-box-button" type="button" class="orange-bg">Clear</button>
+                    <button id="copy-schema-button" type="button" class="green-bg">Copy to clipboard</button>
+                </p>
+                <textarea id="schema-box" class="monospace"></textarea>
+            </div>
+        </div>
+        <div id="log-box" class="monospace"></div>
+        <script src="script.js"></script>
+    </body>
+</html>
